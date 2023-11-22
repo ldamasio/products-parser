@@ -11,6 +11,6 @@ services:
     command: [--auth]
     volumes:
       - ../db/scripts/dump/off/products.bson:/tmp/products.bson
-
+      - ../config/mongod.conf:/etc/mongod.conf
 
 
