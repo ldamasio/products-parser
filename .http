@@ -1,0 +1,25 @@
+# GET https://world.openfoodfacts.org/api/v0/product/0000000000123
+
+# GET http://localhost:8000/
+# Authorization: token dXNlcjpwYXNzd2Q
+
+# PUT http://localhost:8000/products/0000000000123 HTTP/1.1
+# Authorization: token dXNlcjpwYXNzd2Q
+# Content-Type: application/json
+
+# {
+#     "last_modified_by": "1"
+# }
+
+# DELETE http://localhost:8000/products HTTP/1.1
+# Authorization: token dXNlcjpwYXNzd2Q
+
+GET http://localhost:8000/products/0000000000123
+Authorization: token dXNlcjpwYXNzd2Q
+
+
+# GET http://localhost:8000/products HTTP/1.1
+# Authorization: token dXNlcjpwYXNzd2Q
+
+
+

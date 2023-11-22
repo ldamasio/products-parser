@@ -1,0 +1,6 @@
+node_modules
+.env
+/db/scripts/dump/off/products.bson
+/db/scripts/dump/off/products.metadata.json
+/db/scripts/openfoodfacts-mongodbdump.tar.gz
+

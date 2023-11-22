@@ -1,0 +1,1 @@
+mongorestore --username admin --password off --authenticationDatabase admin --db off --drop -d off -c offC /tmp/products.bson
